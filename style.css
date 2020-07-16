@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  
+}
+app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+header h1 {
+  margin: 50px 0px 30px 0px;
+  text-align: center;
+  font-size: 40px;
+}
+header p {
+  font-size: 25px;
+  text-align: center;
+}
+.pads {
+  width: 100%;
+  margin-left: 10px;
+  margin-top: 5px;
+  display: flex;
+  text-shadow: 2px 2px red;
+  font-family: papyrus;
+  font-weight: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.pads > div {
+  width: 100px;
+  height: 100px;
+  flex: 1;
+}
+.pad:active {
+  transform: scale(1.1);
+}
+
+.pad1:hover {
+  background-color: #eca9f5;
+  cursor: pointer;
+}
+.visual {
+    display: flex;
+    height: 300px;
+    width: 90%;      
+    margin-left: 20px;
+    margin-right:20px;
+    margin-top: 20px;       
+    font-family: papyrus;
+    font-weight: 20px;
+    font-size: 20px;
+    text-align: center;
+  } 
+
+.pad1:active {
+  background-color: #db1d2d;
+  transform: scale(1.1);
+}
+
+.pad1 {
+  background-color: #9e249e;
+  border: 3px solid #748dd1;
+}
+
+.pad2:hover {
+  background-color: #9cf8ab;
+  cursor: pointer;
+}
+
+.pad2:active {
+  background-color: #33b353;
+}
+
+.pad2 {
+  background-color: #409764;
+  border: 3px solid #8ae8f5;
+}
+
+.pad3:hover {
+  background-color: #ab8bf7;
+  cursor: pointer;
+}
+
+.pad3:active {
+  background-color: #2514c2;
+}
+
+.pad3 {
+  background-color: #25078f;
+  border: 3px solid #95ade2;
+}
+
+.pad4:hover {
+  background-color: #e3f190;
+  cursor: pointer;
+}
+
+.pad4:active {
+  background-color: #def040;
+}
+
+.pad4 {
+  background-color: #cfdf44;
+  border: 3px solid #ee9d06;
+}
+
+.pad5:hover {
+  background-color: #f36661;
+  cursor: pointer;
+}
+
+.pad5:active {
+  background-color: #db411a;
+}
+
+.pad5 {
+  background-color: #ca1010;
+  border: 3px solid #f1dddd;
+}
+
+.pad6:hover {
+  background-color: #76d4cd;
+  cursor: pointer;
+}
+
+.pad6:active {
+  background-color: #5fc1ce;
+}
+
+.pad6 {
+  background-color: #55a59a;
+  border: 3px solid #df93e9;
+}
+
+.pad7:hover {
+  background-color: #c76a13;
+  cursor: pointer;
+}
+
+.pad7:active {
+  background-color: #f8c080;
+}
+
+.pad7 {
+  background-color: #e98c13;
+  border: 3px solid #eef07b;
+}
+
+.pad8:hover {
+  background-color: #eb9ec4;
+  cursor: pointer;
+}
+
+.pad8:active {
+  background-color: #e45c84;
+}
+
+.pad8 {
+  background-color: #cc114f;
+  border: 3px solid #ad70e6;
+  flex: 1;
+}
+.pad9:hover {
+  background-color: #6f3a62;
+  cursor: pointer;
+}
+
+.pad9:active {
+  background-color: #c00f27;
+}
+
+.pad9 {
+  background-color: #ec077a;
+  border: 3px solid #d376bd;
+}
